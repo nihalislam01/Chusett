@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header>
+            <h1>Chusett</h1>
+        </header>
+
+        <section class="space" id="label">
+            
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <div class="alpha">A</div>
+                <div class="alpha">B</div>
+                <div class="alpha">C</div>
+                <div class="alpha">D</div>
+                <div class="alpha">E</div>
+                <div class="alpha">F</div>
+                <div class="alpha">G</div>
+                <div class="alpha">H</div>
+            </div>
+                <div class="row">
+                    <div class="num">8</div>
+                    <div class="blockW" id="18" onclick="getId(this)"><image src="pieces/rookB.png" class="pieces" id="rookB"></div>
+                    <div class="blockB" id="28" onclick="getId(this)"><image src="pieces/knightLB.png" class="pieces" id="knightB"></div>
+                    <div class="blockW" id="38" onclick="getId(this)"><image src="pieces/bishopLB.png" class="pieces" id="bishopB"></div>
+                    <div class="blockB" id="48" onclick="getId(this)"><image src="pieces/queenB.png" class="pieces" id="queenB"></div>
+                    <div class="blockW" id="58" onclick="getId(this)"><image src="pieces/kingB.png" class="pieces" id="kingB"></div>
+                    <div class="blockB" id="68" onclick="getId(this)"><image src="pieces/bishopRB.png" class="pieces" id="bishopB"></div>
+                    <div class="blockW" id="78" onclick="getId(this)"><image src="pieces/knightRB.png" class="pieces" id="knightB"></div>
+                    <div class="blockB" id="88" onclick="getId(this)"><image src="pieces/rookB.png" class="pieces" id="rookB"></div>
+                    <div class="num">8</div>    
+                </div>
+                <div class="row">
+                    <div class="num">7</div>
+                    <div class="blockB" id="17" onclick="getId(this)"><image src="pieces/pawnB.png" class="pieces" id="pawnB"></div>
+                    <div class="blockW" id="27" onclick="getId(this)"><image src="pieces/pawnB.png" class="pieces" id="pawnB"></div>
+                    <div class="blockB" id="37" onclick="getId(this)"><image src="pieces/pawnB.png" class="pieces" id="pawnB"></div>
+                    <div class="blockW" id="47" onclick="getId(this)"><image src="pieces/pawnB.png" class="pieces" id="pawnB"></div>
+                    <div class="blockB" id="57" onclick="getId(this)"><image src="pieces/pawnB.png" class="pieces" id="pawnB"></div>
+                    <div class="blockW" id="67" onclick="getId(this)"><image src="pieces/pawnB.png" class="pieces" id="pawnB"></div>
+                    <div class="blockB" id="77" onclick="getId(this)"><image src="pieces/pawnB.png" class="pieces" id="pawnB"></div>
+                    <div class="blockW" id="87" onclick="getId(this)"><image src="pieces/pawnB.png" class="pieces" id="pawnB"></div>
+                        <div class="num">7</div>
+                </div>
+                <div class="row">
+                    <div class="num">6</div>
+                    <div class="blockW" id="16" onclick="getId(this)"></div>
+                    <div class="blockB" id="26" onclick="getId(this)"></div>
+                    <div class="blockW" id="36" onclick="getId(this)"></div>
+                    <div class="blockB" id="46" onclick="getId(this)"></div>
+                    <div class="blockW" id="56" onclick="getId(this)"></div>
+                    <div class="blockB" id="66" onclick="getId(this)"></div>
+                    <div class="blockW" id="76" onclick="getId(this)"></div>
+                    <div class="blockB" id="86" onclick="getId(this)"></div>
+                    <div class="num">6</div>
+                </div>
+                <div class="row">
+                    <div class="num">5</div>
+                    <div class="blockB" id="15" onclick="getId(this)"></div>
+                    <div class="blockW" id="25" onclick="getId(this)"></div>
+                    <div class="blockB" id="35" onclick="getId(this)"></div>
+                    <div class="blockW" id="45" onclick="getId(this)"></div>
+                    <div class="blockB" id="55" onclick="getId(this)"></div>
+                    <div class="blockW" id="65" onclick="getId(this)"></div>
+                    <div class="blockB" id="75" onclick="getId(this)"></div>
+                    <div class="blockW" id="85" onclick="getId(this)"></div>
+                    <div class="num">5</div>
+                </div>
+                <div class="row">
+                    <div class="num">4</div>
+                    <div class="blockW" id="14" onclick="getId(this)"></div>
+                    <div class="blockB" id="24" onclick="getId(this)"></div>
+                    <div class="blockW" id="34" onclick="getId(this)"></div>
+                    <div class="blockB" id="44" onclick="getId(this)"></div>
+                    <div class="blockW" id="54" onclick="getId(this)"></div>
+                    <div class="blockB" id="64" onclick="getId(this)"></div>
+                    <div class="blockW" id="74" onclick="getId(this)"></div>
+                    <div class="blockB" id="84" onclick="getId(this)"></div>
+                    <div class="num">4</div>
+                </div>
+                <div class="row">
+                    <div class="num">3</div>
+                    <div class="blockB" id="13" onclick="getId(this)"></div>
+                    <div class="blockW" id="23" onclick="getId(this)"></div>
+                    <div class="blockB" id="33" onclick="getId(this)"></div>
+                    <div class="blockW" id="43" onclick="getId(this)"></div>
+                    <div class="blockB" id="53" onclick="getId(this)"></div>
+                    <div class="blockW" id="63" onclick="getId(this)"></div>
+                    <div class="blockB" id="73" onclick="getId(this)"></div>
+                    <div class="blockW" id="83" onclick="getId(this)"></div>
+                    <div class="num">3</div>
+                </div>
+                <div class="row">
+                    <div class="num">2</div>
+                    <div class="blockW" id="12" onclick="getId(this)"><image src="pieces/pawnW.png" class="pieces" id="pawnW"></div>
+                    <div class="blockB" id="22" onclick="getId(this)"><image src="pieces/pawnW.png" class="pieces" id="pawnW"></div>
+                    <div class="blockW" id="32" onclick="getId(this)"><image src="pieces/pawnW.png" class="pieces" id="pawnW"></div>
+                    <div class="blockB" id="42" onclick="getId(this)"><image src="pieces/pawnW.png" class="pieces" id="pawnW"></div>
+                    <div class="blockW" id="52" onclick="getId(this)"><image src="pieces/pawnW.png" class="pieces" id="pawnW"></div>
+                    <div class="blockB" id="62" onclick="getId(this)"><image src="pieces/pawnW.png" class="pieces" id="pawnW"></div>
+                    <div class="blockW" id="72" onclick="getId(this)"><image src="pieces/pawnW.png" class="pieces" id="pawnW"></div>
+                    <div class="blockB" id="82" onclick="getId(this)"><image src="pieces/pawnW.png" class="pieces" id="pawnW"></div>
+                        <div class="num">2</div>
+                </div>
+                <div class="row">
+                    <div class="num">1</div>
+                    <div class="blockB" id="11" onclick="getId(this)"><image src="pieces/rookW.png" class="pieces" id="rookW"></div>
+                    <div class="blockW" id="21" onclick="getId(this)"><image src="pieces/knightLW.png" class="pieces" id="knightW"></div>
+                    <div class="blockB" id="31" onclick="getId(this)"><image src="pieces/bishopLW.png" class="pieces" id="bishopW"></div>
+                    <div class="blockW" id="41" onclick="getId(this)"><image src="pieces/queenW.png" class="pieces" id="queenW"></div>
+                    <div class="blockB" id="51" onclick="getId(this)"><image src="pieces/kingW.png" class="pieces" id="kingW"></div>
+                    <div class="blockW" id="61" onclick="getId(this)"><image src="pieces/bishopRW.png" class="pieces" id="bishopW"></div>
+                    <div class="blockB" id="71" onclick="getId(this)"><image src="pieces/knightRW.png" class="pieces" id="knightW"></div>
+                    <div class="blockW" id="81" onclick="getId(this)"><image src="pieces/rookW.png" class="pieces" id="rookW"></div>
+                    <div class="num">1</div>
+                </div>
+            <div class="row">
+                <div class="alpha">A</div>
+                <div class="alpha">B</div>
+                <div class="alpha">C</div>
+                <div class="alpha">D</div>
+                <div class="alpha">E</div>
+                <div class="alpha">F</div>
+                <div class="alpha">G</div>
+                <div class="alpha">H</div>
+            </div>
+
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>
